@@ -1,3 +1,11 @@
+/* Import component-specific styles */
+@import './components/layout/Sidebar.css';
+@import './components/layout/Topbar.css';
+@import './components/layout/Player.css';
+@import './components/main/TextToSpeech.css';
+@import './components/main/AudioLibrary.css';
+@import './components/shared/AudioCard.css';
+
 * {
   padding: 0;
   margin: 0;
@@ -29,10 +37,3 @@ body {
   margin-bottom: 100px;
 }
 
-/* Import component-specific styles */
-@import './components/layout/Sidebar.css';
-@import './components/layout/Topbar.css';
-@import './components/layout/Player.css';
-@import './components/main/TextToSpeech.css';
-@import './components/main/AudioLibrary.css';
-@import './components/shared/AudioCard.css';
