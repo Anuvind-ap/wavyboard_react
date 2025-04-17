@@ -1,0 +1,56 @@
+.custom-audio-player.rhap_container {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  width: 100%;
+}
+
+.custom-audio-player .rhap_main-controls-button {
+  color: #ffffff;
+  margin: 0 8px;
+}
+
+.custom-audio-player .rhap_play-pause-button {
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.custom-audio-player .rhap_volume-button {
+  color: #ffffff;
+}
+
+.custom-audio-player .rhap_progress-filled {
+  background-color: #1db954;
+}
+
+.custom-audio-player .rhap_progress-indicator {
+  background: #ffffff;
+  box-shadow: none;
+}
+
+.custom-audio-player .rhap_progress-bar {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.custom-audio-player .rhap_time {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.custom-audio-player .rhap_volume-bar {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.custom-audio-player .rhap_volume-indicator {
+  background: #ffffff;
+  box-shadow: none;
+}
+
+.custom-audio-player .rhap_volume-filled {
+  background-color: #1db954;
+}
+
+.custom-audio-player .rhap_button-clear {
+  color: #ffffff;
+} 

@@ -1,0 +1,129 @@
+.your-lib {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #0a0a0a; /* Dark background for the main container */
+}
+
+.your-lib h1 {
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.library-content {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2rem;
+}
+
+.groups-sidebar {
+  background-color: #121212; /* Slightly lighter black for sidebar */
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid #1a1a1a; /* Subtle border for depth */
+}
+
+.groups-sidebar h2 {
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.groups-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.group-button {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  background-color: #1a1a1a; /* Darker background for buttons */
+  border: 1px solid #2a2a2a;
+  border-radius: 0.5rem;
+  color: var(--text-color);
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.group-button:hover {
+  background-color: #2a2a2a; /* Lighter on hover */
+  border-color: var(--primary-color);
+  transform: translateY(-1px);
+}
+
+.group-button.active {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.songs-container {
+  background-color: #121212; /* Matching sidebar background */
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid #1a1a1a;
+}
+
+.songs-container h2 {
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.songs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.loading {
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.no-songs {
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.error-container {
+  color: var(--error-color);
+  text-align: center;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  border: 1px solid #2a2a2a;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .library-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .groups-sidebar {
+    margin-bottom: 1rem;
+  }
+} 

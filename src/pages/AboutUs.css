@@ -1,0 +1,52 @@
+.about-page {
+  padding: 40px;
+  color: white;
+}
+
+.about-page h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-content section {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.about-content h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #17a74e;
+}
+
+.about-content p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.values ul {
+  list-style: none;
+  padding: 0;
+}
+
+.values li {
+  margin-bottom: 15px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.values li:before {
+  content: "✓";
+  color: #17a74e;
+  position: absolute;
+  left: 0;
+} 

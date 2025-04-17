@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 300px;
+}
+
+.main-container {
+  flex: 1;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+/* Import component-specific styles */
+@import './components/layout/Sidebar.css';
+@import './components/layout/Topbar.css';
+@import './components/layout/Player.css';
+@import './components/main/TextToSpeech.css';
+@import './components/main/AudioLibrary.css';
+@import './components/shared/AudioCard.css';
